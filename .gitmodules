@@ -1,0 +1,66 @@
+[submodule "src/common_msgs/nav_msgs"]
+	path = src/common_msgs/nav_msgs
+	url = https://github.com/ros-gbp/common_msgs-release.git
+[submodule "src/turtlebot"]
+	path = src/turtlebot
+	url = https://github.com/turtlebot/turtlebot.git
+[submodule "src/hector_slam"]	
+	path = src/hector_slam
+	url = https://github.com/tu-darmstadt-ros-pkg/hector_slam.git
+[submodule "src/launch-files"]	
+	path = src/launch-files
+	url = https://github.com/ashish-kb/launch-files.git
+[submodule "src/map_msgs"]	
+	path = src/map_msgs
+	url = https://github.com/ros-gbp/map_msgs-release.git
+[submodule "src/navigation/amcl"]
+    path = src/navigation/amcl
+    url = https://github.com/ros-gbp/navigation-release.git
+[submodule "src/navigation/base_local_planner"]
+    path = src/navigation/base_local_planner
+    url = https://github.com/ros-gbp/navigation-release.git
+[submodule "src/navigation/carrot_planner"]
+    path = src/navigation/carrot_planner
+    url = https://github.com/ros-gbp/navigation-release.git
+[submodule "src/navigation/clear_costmap_recovery"]
+    path = src/navigation/clear_costmap_recovery
+    url = https://github.com/ros-gbp/navigation-release.git
+[submodule "src/navigation/costmap_2d"]
+    path = src/navigation/costmap_2d
+    url = https://github.com/ros-gbp/navigation-release.git
+[submodule "src/navigation/dwa_local_planner"]
+    path = src/navigation/dwa_local_planner
+    url = https://github.com/ros-gbp/navigation-release.git
+[submodule "src/navigation/fake_localization"]
+    path = src/navigation/fake_localization
+    url = https://github.com/ros-gbp/navigation-release.git
+[submodule "src/navigation/global_planner"]
+    path = src/navigation/global_planner
+    url = https://github.com/ros-gbp/navigation-release.git
+[submodule "src/navigation/map_server"]
+    path = src/navigation/map_server
+    url = https://github.com/ros-gbp/navigation-release.git
+[submodule "src/navigation/move_base"]
+    path = src/navigation/move_base
+    url = https://github.com/ros-gbp/navigation-release.git
+[submodule "src/navigation/move_slow_and_clear"]
+    path = src/navigation/move_slow_and_clear
+    url = https://github.com/ros-gbp/navigation-release.git
+[submodule "src/navigation/nav_core"]
+    path = src/navigation/nav_core
+    url = https://github.com/ros-gbp/navigation-release.git
+[submodule "src/navigation/navfn"]
+    path = src/navigation/navfn
+    url = https://github.com/ros-gbp/navigation-release.git
+[submodule "src/navigation/navigation"]
+    path = src/navigation/navigation
+    url = https://github.com/ros-gbp/navigation-release.git
+[submodule "src/navigation/robot_pose_ekf"]
+    path = src/navigation/robot_pose_ekf
+    url = https://github.com/ros-gbp/navigation-release.git
+[submodule "src/navigation/rotate_recovery"]
+    path = src/navigation/rotate_recovery
+    url = https://github.com/ros-gbp/navigation-release.git
+[submodule "src/slam_gmapping/slam_gmapping"]
+    path = src/slam_gmapping/slam_gmapping
+    url = https://github.com/ros-gbp/slam_gmapping-release.git
