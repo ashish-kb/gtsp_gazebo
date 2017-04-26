@@ -1,0 +1,16 @@
+<package>
+  <description brief="pioneer_2dnav">
+
+     Package for bringing up the ROSARIA driver, Hokuyo node, Laser Static Transform and the NavStack to use with the Pioneer robot. Developed at ISR, University of Coimbra
+
+  </description>
+  <author>David Portugal</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/pioneer_2dnav</url>
+  <depend package="move_base"/>
+  <depend package="ROSARIA"/>
+  <depend package="hokuyo_node"/> 
+</package>
+
+

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<launch>
+  <master auto="start"/>
+
+  <param name="use_sim_time" value="true"/>
+  <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping">
+    <rosparam>
+      odom_frame: odom
+      base_frame: base_link
+      map_frame: map
+      map_update_interval: 0.5 # Publish new map
+
+      maxUrange: 59.0 # Should be just less than sensor range
+      maxRange: 60.0 # Should be just greater than sensor range
+      
+      # Update frequencies
+      linearUpdate: 0.03
+      angularUpdate: 0.05
+      temporalUpdate: 0.1
+      resampleThreshold: 0.5
+
+      # Initial Map Size
+      xmin: -100.0
+      ymin: -100.0
+      xmax: 100.0
+      ymax: 100.0
+      delta: 0.25
+
+ 
+      srr: 0.00
+      srt: 0.00
+      stt: 0.00
+      str: 0.00
+    </rosparam>
+   <remap from="scan" to="/p3dx/scan" />
+  </node>
+
+
+
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <rosparam file="$(find pioneer_2dnav)/params/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find pioneer_2dnav)/params/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find pioneer_2dnav)/params/isr_floor0/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find pioneer_2dnav)/params/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find pioneer_2dnav)/params/base_local_planner_params.yaml" command="load" />
+  </node>
+ <node pkg="robot_pose_publisher" type="robot_pose_publisher" name="robot_pose_publisher"/>
+
+
+</launch>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="rosaria" type="RosAria" name="RosAria">
+    <remap from="RosAria/cmd_vel" to="cmd_vel"/>
+    <remap from="RosAria/pose" to="odom"/>
+	 <param name="_port" value="/dev/ttyUSB0" />
+  </node>
+
+  <node pkg="hokuyo_node" type="hokuyo_node" name="hokuyo_node" output="screen">
+    <param name="port" value="/dev/ttyACM0" />
+  </node>
+
+ <node pkg="tf" type="static_transform_publisher" name="base_link_to_laser" args="0.225 0.0 0.1 0.0 0.0 0.0 1.0 base_link laser 100" />
+ 
+ <!--<node pkg="tf" type="static_transform_publisher" name="base_link_to_laser" args="0.225 0.0 -0.065 0.0 0.0 0.0 1.0 /base_link /laser 100" />-->
+ <!-- ao meter o z a negativo, tenho de colocar min_obstacle_height: -1.0 no costmap_common_params -->
+
+</launch>

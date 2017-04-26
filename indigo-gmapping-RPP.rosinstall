@@ -1,0 +1,5 @@
+- git:
+    local-name: slam_gmapping/slam_gmapping
+    uri: https://github.com/ros-gbp/slam_gmapping-release.git
+    version: release/indigo/slam_gmapping/1.3.8-0
+

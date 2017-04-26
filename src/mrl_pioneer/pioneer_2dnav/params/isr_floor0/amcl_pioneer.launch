@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+<arg name="robot_name"/>
+<arg name="init_x"/>
+<arg name="init_y"/>
+
+<node pkg="amcl" type="amcl" name="amcl" args="scan:=/$(arg robot_name)/p3dx/scan" output="screen">
+  <param name="odom_model_type" value="diff"/>
+  <param name="initial_pose_x" value="$(arg init_x)"/>
+  <param name="initial_pose_y" value="$(arg init_y)"/>
+  <param name="initial_pose_z" value="0.0"/>
+  <param name="initial_pose_a" value="0.0"/>
+
+</node>
+</launch>

@@ -1,0 +1,63 @@
+Background\ ColorR=0
+Background\ ColorG=0
+Background\ ColorB=0
+Fixed\ Frame=/map
+Target\ Frame=/base_link
+Laser\ Scan.Alpha=1
+Laser\ Scan.Billboard\ Size=0.01
+Laser\ Scan.Color\ Transformer=Intensity
+Laser\ Scan.Decay\ Time=0
+Laser\ Scan.Enabled=1
+Laser\ Scan.Position\ Transformer=XYZ
+Laser\ Scan.Selectable=1
+Laser\ Scan.Style=1
+Laser\ Scan.Topic=/base_scan
+Laser\ Scan..Flat\ ColorColorR=1
+Laser\ Scan..Flat\ ColorColorG=1
+Laser\ Scan..Flat\ ColorColorB=1
+Laser\ Scan..IntensityAutocompute\ Intensity\ Bounds=1
+Laser\ Scan..IntensityMax\ ColorR=1
+Laser\ Scan..IntensityMax\ ColorG=0.384314
+Laser\ Scan..IntensityMax\ ColorB=0.0470588
+Laser\ Scan..IntensityMax\ Intensity=0
+Laser\ Scan..IntensityMin\ ColorR=0
+Laser\ Scan..IntensityMin\ ColorG=0
+Laser\ Scan..IntensityMin\ ColorB=0
+Laser\ Scan..IntensityMin\ Intensity=0
+Map.Alpha=0.7
+Map.Draw\ Behind=0
+Map.Enabled=1
+Map.Topic=/map
+Path.Alpha=1
+Path.ColorR=0.1
+Path.ColorG=1
+Path.ColorB=0
+Path.Enabled=1
+Path.Topic=/move_base/TrajectoryPlannerROS/global_plan
+Polygon.Alpha=1
+Polygon.ColorR=0.1
+Polygon.ColorG=1
+Polygon.ColorB=0
+Polygon.Enabled=1
+Polygon.Topic=/move_base/local_costmap/robot_footprint
+Tool\ 2D\ Nav\ GoalTopic=goal
+Tool\ 2D\ Pose\ EstimateTopic=initialpose
+Camera\ Type=rviz::OrbitViewController
+Camera\ Config=0.076 1.5461 39.2491 -1.83693 -1.4845 4.95941
+Property\ Grid\ State=selection=;expanded=.Global Options;scrollpos=0,0;splitterpos=150,301;ispageselected=1
+[Display0]
+Name=Map
+Package=rviz
+ClassName=rviz::MapDisplay
+[Display1]
+Name=Polygon
+Package=rviz
+ClassName=rviz::PolygonDisplay
+[Display2]
+Name=Laser Scan
+Package=rviz
+ClassName=rviz::LaserScanDisplay
+[Display3]
+Name=Path
+Package=rviz
+ClassName=rviz::PathDisplay

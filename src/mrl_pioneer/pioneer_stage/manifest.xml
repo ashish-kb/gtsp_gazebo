@@ -1,0 +1,15 @@
+<package>
+  <description brief="pioneer_stage">
+
+     Package for bringing up the Pioneer robot on stage, using the Navigation Stack. Developed at ISR, University of Coimbra
+
+  </description>
+  <author>David</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/pioneer_stage</url>
+  <depend package="move_base"/>
+  <depend package="stage"/>
+</package>
+
+

@@ -1,0 +1,16 @@
+<package>
+  <description brief="pioneer_teleop">
+
+     Teleoperation Package for the Pioneer-3DX.
+
+  </description>
+  <author>David Portugal</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/pioneer_teleop</url>
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+  <depend package="wiimote"/>
+</package>
+
+

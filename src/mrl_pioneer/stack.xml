@@ -1,0 +1,9 @@
+<stack>
+  <description brief="mrl_pioneer">Pioneer Stack of MRLab (ISR - University of Coimbra).</description>
+  <author>Maintained by David Portugal</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/mrl_pioneer</url>
+  <depend stack="ros" />
+
+</stack>

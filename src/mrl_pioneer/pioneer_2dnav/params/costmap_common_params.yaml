@@ -1,0 +1,22 @@
+obstacle_range: 3.5
+raytrace_range: 4.0
+#robot_radius: 0.25 
+# 0.225
+#footprint: [[-0.5, -0.33], [-0.5, 0.33], [0.5, 0.33], [0.5, -0.33]]
+footprint: [[-0.30, -0.25], [-0.30, 0.25], [0.30, 0.25], [0.30, -0.25]]
+inflation_radius: 0.75
+observation_sources: laser_scan_sensor
+laser_scan_sensor: {sensor_frame: lms100, data_type: LaserScan, topic: p3dx/scan, marking: true, clearing: true, min_obstacle_height: -1.0}
+
+#footprint: [[0.5, 0.5], [0.5, -0.5], [-0.5, -0.5], [-0.5, 0.5]] 
+#footprint: [[0.1, 0.1], [0.1, -0.1], [-0.1, -0.1], [-0.1, 0.1]]
+#footprint: [[0.2, 0.22], [0.22, -0.22], [-0.22, -0.22], [-0.22, 0.22]]  
+#footprint: [[0.4, 0.4], [0.4, -0.4], [-0.4, -0.4], [-0.4, 0.4]] 
+#footprint: [[1.0, 1.0], [1.0, -1.0], [-1.0, -1.0], [-1.0, 1.0]] 
+#footprint: [[0.3, 0.3], [0.3, -0.3], [-0.3, -0.3], [-0.3, 0.3]]
+
+#footprint: [[0.3, 0.0], [0.0, 0.3], [0.0, -0.3], [-0.3, 0.0]]
+#robot_radius: ir_of_robot
+#robot_radius: 0.35
+#inflation_radius: 0.35
+#transform_tolerance : 0.6 #no stingbot isto nao existe

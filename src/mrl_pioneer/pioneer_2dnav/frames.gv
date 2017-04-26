@@ -1,0 +1,26 @@
+digraph G {
+"robot1/base_link" -> "robot1/front_sonar"[label="Broadcaster: /robot1/robot_state_publisher\nAverage rate: 50.242 Hz\nMost recent transform: 844.293 ( 0.017 sec old)\nBuffer length: 3.921 sec\n"];
+"robot1/odom" -> "robot1/base_link"[label="Broadcaster: /gazebo\nAverage rate: 100.357 Hz\nMost recent transform: 844.303 ( 0.007 sec old)\nBuffer length: 3.926 sec\n"];
+"robot1/p3dx_left_wheel" -> "robot1/p3dx_left_hubcap"[label="Broadcaster: /robot1/robot_state_publisher\nAverage rate: 50.242 Hz\nMost recent transform: 844.293 ( 0.017 sec old)\nBuffer length: 3.921 sec\n"];
+"robot1/p3dx_right_wheel" -> "robot1/p3dx_right_hubcap"[label="Broadcaster: /robot1/robot_state_publisher\nAverage rate: 50.242 Hz\nMost recent transform: 844.293 ( 0.017 sec old)\nBuffer length: 3.921 sec\n"];
+"robot1/base_link" -> "robot1/top_plate"[label="Broadcaster: /robot1/robot_state_publisher\nAverage rate: 50.242 Hz\nMost recent transform: 844.293 ( 0.017 sec old)\nBuffer length: 3.921 sec\n"];
+"robot1/center_wheel" -> "robot1/center_hubcap"[label="Broadcaster: /robot1/robot_state_publisher\nAverage rate: 50.242 Hz\nMost recent transform: 844.293 ( 0.017 sec old)\nBuffer length: 3.921 sec\n"];
+"robot1/base_link" -> "robot1/lms100"[label="Broadcaster: /robot1/robot_state_publisher\nAverage rate: 50.242 Hz\nMost recent transform: 844.293 ( 0.017 sec old)\nBuffer length: 3.921 sec\n"];
+"map" -> "robot1/odom"[label="Broadcaster: /robot1/amcl\nAverage rate: 49.936 Hz\nMost recent transform: 844.367 ( -0.057 sec old)\nBuffer length: 3.905 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 844.310"[ shape=plaintext ] ;
+ }->"robot1/p3dx_left_wheel";
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 844.310"[ shape=plaintext ] ;
+ }->"robot1/p3dx_right_wheel";
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 844.310"[ shape=plaintext ] ;
+ }->"robot1/center_wheel";
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 844.310"[ shape=plaintext ] ;
+ }->"map";
+}

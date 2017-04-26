@@ -1,0 +1,73 @@
+- git:
+    local-name: common_msgs/nav_msgs
+    uri: https://github.com/ros-gbp/common_msgs-release.git
+    version: release/indigo/nav_msgs/1.11.9-0
+- git:
+    local-name: map_msgs
+    uri: https://github.com/ros-gbp/map_msgs-release.git
+    version: release/indigo/map_msgs/0.0.2-1
+- git:
+    local-name: navigation/amcl
+    uri: https://github.com/ros-gbp/navigation-release.git
+    version: release/indigo/amcl/1.12.12-0
+- git:
+    local-name: navigation/base_local_planner
+    uri: https://github.com/ros-gbp/navigation-release.git
+    version: release/indigo/base_local_planner/1.12.12-0
+- git:
+    local-name: navigation/carrot_planner
+    uri: https://github.com/ros-gbp/navigation-release.git
+    version: release/indigo/carrot_planner/1.12.12-0
+- git:
+    local-name: navigation/clear_costmap_recovery
+    uri: https://github.com/ros-gbp/navigation-release.git
+    version: release/indigo/clear_costmap_recovery/1.12.12-0
+- git:
+    local-name: navigation/costmap_2d
+    uri: https://github.com/ros-gbp/navigation-release.git
+    version: release/indigo/costmap_2d/1.12.12-0
+- git:
+    local-name: navigation/dwa_local_planner
+    uri: https://github.com/ros-gbp/navigation-release.git
+    version: release/indigo/dwa_local_planner/1.12.12-0
+- git:
+    local-name: navigation/fake_localization
+    uri: https://github.com/ros-gbp/navigation-release.git
+    version: release/indigo/fake_localization/1.12.12-0
+- git:
+    local-name: navigation/global_planner
+    uri: https://github.com/ros-gbp/navigation-release.git
+    version: release/indigo/global_planner/1.12.12-0
+- git:
+    local-name: navigation/map_server
+    uri: https://github.com/ros-gbp/navigation-release.git
+    version: release/indigo/map_server/1.12.12-0
+- git:
+    local-name: navigation/move_base
+    uri: https://github.com/ros-gbp/navigation-release.git
+    version: release/indigo/move_base/1.12.12-0
+- git:
+    local-name: navigation/move_slow_and_clear
+    uri: https://github.com/ros-gbp/navigation-release.git
+    version: release/indigo/move_slow_and_clear/1.12.12-0
+- git:
+    local-name: navigation/nav_core
+    uri: https://github.com/ros-gbp/navigation-release.git
+    version: release/indigo/nav_core/1.12.12-0
+- git:
+    local-name: navigation/navfn
+    uri: https://github.com/ros-gbp/navigation-release.git
+    version: release/indigo/navfn/1.12.12-0
+- git:
+    local-name: navigation/navigation
+    uri: https://github.com/ros-gbp/navigation-release.git
+    version: release/indigo/navigation/1.12.12-0
+- git:
+    local-name: navigation/robot_pose_ekf
+    uri: https://github.com/ros-gbp/navigation-release.git
+    version: release/indigo/robot_pose_ekf/1.12.12-0
+- git:
+    local-name: navigation/rotate_recovery
+    uri: https://github.com/ros-gbp/navigation-release.git
+    version: release/indigo/rotate_recovery/1.12.12-0
+

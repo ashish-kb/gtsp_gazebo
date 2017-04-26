@@ -1,0 +1,14 @@
+<package>
+  <description brief="pioneer_description">
+
+     Simple package that launches the p2os_urdf Pioneer model, useful for visualization in rviz. It assumes correct graphical support on your system.
+
+  </description>
+  <author>David Portugal</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/pioneer_description</url>
+  <depend package="p2os_urdf"/>
+</package>
+
+
